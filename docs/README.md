@@ -1,6 +1,6 @@
 # CASH — memoria del progetto
 
-Aggiornato: 8 ottobre 2026, Europe/Rome.
+Aggiornato: 13 ottobre 2026, Europe/Rome.
 
 - [Piano corrente: Payhip + Gumroad a9,90 €, Etsy sospeso](PIANO_CANALI_GRATUITI_2026-10-08.md)
 - [Stato e obiettivi](PROGETTO.md)

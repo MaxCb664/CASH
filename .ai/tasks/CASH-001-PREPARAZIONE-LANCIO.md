@@ -1,19 +1,20 @@
 # CASH-001 — preparazione del lancio gratuito
 
-Stato: in corso, con dipendenze dal titolare. Sessione chiusa l'8 ottobre 2026.
+Stato: in corso. Account Payhip, Ko-fi e repository GitHub configurati il 13 ottobre 2026.
 
 ## Criteri di accettazione
 
 - [x] Riutilizzare il kit esistente senza rigenerare il prodotto acquirente.
-- [x] Aggiornare materiali, scenario e catalogo al piano Payhip principale / Gumroad secondario / 9,90 €.
+- [x] Aggiornare materiali, scenario e catalogo al piano Payhip principale / Ko-fi / Gumroad secondario / 9,90 €.
 - [x] Salvare e verificare il prezzo Gumroad; verificare il pacchetto scaricato dall'editor.
 - [x] Conservare Etsy sospeso senza pubblicazione o costi.
-- [ ] Accedere a Payhip e salvare la bozza con file, immagini, descrizione e prezzo corretto.
-- [ ] Completare i dati venditore e pagamenti a cura del titolare.
+- [x] Creare account Payhip e Ko-fi e collegare repository GitHub (completato dal titolare).
+- [ ] Caricare bozza su Payhip (e Ko-fi Shop) con file zip, immagini, descrizione e prezzo 9,90 € (visibilità nascosta/bozza).
+- [ ] Completare i dati venditore e metodi di accredito a cura del titolare.
 - [ ] Verificare checkout/download cliente, oppure documentare un limite specifico dopo la configurazione.
 - [ ] Eseguire prova Excel desktop, oppure registrare l'indisponibilità alla consegna finale.
-- [x] Documentare verifiche attuali, blocchi e prossimo passo.
+- [x] Documentare verifiche attuali, blocchi e schede operative pronte.
 
-La preparazione complessiva non è completata: manca almeno la bozza Payhip. Pubblicazione e acquisizione commerciale sono fasi separate; nessun nuovo messaggio, costo o pubblicazione è stato eseguito.
+La preparazione complessiva non è completata: manca il caricamento effettivo delle bozze su Payhip/Ko-fi e il collegamento dei payout. Pubblicazione e acquisizione commerciale restano fasi separate; nessun costo o pubblicazione non autorizzata è stato eseguito.
 
-Evidenze: `docs/verifiche/2026-10-08/ESITO.md`; stato e ripresa in `.ai/state/CURRENT-WORK.md`. Per il catalogo fa fede `docs/catalogo.json`, non le ipotesi del piano.
+Evidenze: `docs/verifiche/2026-10-08/ESITO.md`, schede `Payhip_pronto.md`, `Kofi_pronto.md`, repository `https://github.com/MaxCb664/CASH`. Per il catalogo fa fede `docs/catalogo.json`.

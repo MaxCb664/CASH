@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-13",
   "products": [
     {
       "sku": "CASH-001",
@@ -17,7 +17,7 @@
       "etsy_listing_id": "4587304534",
       "gumroad_product_id": "qbcclq",
       "blockers": [
-        "Accesso Payhip del titolare e caricamento da completare",
+        "Caricamento bozza su Payhip e Ko-fi da completare",
         "Excel desktop non verificato",
         "Verifiche venditore e fiscali",
         "Metodo accredito Gumroad mancante",
@@ -27,8 +27,14 @@
       "channels": {
         "payhip": {
           "role": "primary",
-          "status": "awaiting_owner_login",
-          "saved_price_eur": null,
+          "status": "account_created_awaiting_upload",
+          "saved_price_eur": 9.9,
+          "listing_id": null
+        },
+        "kofi": {
+          "role": "alternative",
+          "status": "account_created_awaiting_upload",
+          "saved_price_eur": 9.9,
           "listing_id": null
         },
         "gumroad": {

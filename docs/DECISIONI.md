@@ -18,3 +18,8 @@ Payhip principale, Gumroad secondario,9,90 € approvato; Etsy sospeso con bozza
 # Chiusura operativa — 8 ottobre 2026
 
 Salvati stato comune e task in `.ai/state/CURRENT-WORK.md` e `.ai/tasks/CASH-001-PREPARAZIONE-LANCIO.md`. Sessione chiusa con lancio ancora in preparazione, senza nuove modifiche alle piattaforme. Esportate e confrontate le quattro note Obsidian; storico e annotazioni personali preservati. Dettagli in `CHIUSURA_2026-10-08.md`.
+
+## 13 ottobre 2026 — Account Payhip, Ko-fi e GitHub collegati
+Il titolare ha creato gli account su Payhip e Ko-fi e ha inizializzato e pushato il repository su GitHub (`https://github.com/MaxCb664/CASH`).
+Payhip è confermato come canale primario (piano Free Forever, 5% fee vendite, gestione IVA UE/UK automatica). Ko-fi Shop viene integrato come canale alternativo a 9,90 € (accredito diretto su Stripe/PayPal, gestione IVA digitale UE a carico del venditore). Predisposte le schede operative pronte per il copia-incolla (`Payhip_pronto.md` e `Kofi_pronto.md`). Aggiornato `.ai/unistack.json` con repository remoto `MaxCb664/CASH`. Prossimo passo: caricamento bozza su Payhip e Ko-fi, prova file su Excel desktop e impostazione metodi di accredito.
+

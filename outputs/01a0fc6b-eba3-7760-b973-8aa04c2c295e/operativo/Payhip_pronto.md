@@ -17,4 +17,4 @@ Progettato per Microsoft Excel. Formule verificate nel motore di generazione; pr
 Prodotto digitale, nessun articolo fisico. Strumento organizzativo prima di imposte e contributi; non sostituisce contabilità o consulenza fiscale. Uso e modifica per la propria attività consentiti; rivendita e redistribuzione vietate.
 
 ## Stato
-Accesso titolare richiesto. Nessun prodotto remoto salvato finché non è possibile verificare il negozio. Nessuna promessa di prezzo totale al checkout prima della prova.
+Account creato dal titolare il 13 ottobre 2026. Caricare il file Vendite_e_spese_v1.zip, immagini e testo impostando visibilità "Unlisted" / "Invisible" a 9,90 EUR. Nessun URL o ID prodotto salvato finché la scheda non è creata nell'account.

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "language": "it",
+  "autonomy": "controlled",
+  "profiles": [
+    "dati"
+  ],
+  "commands": [],
+  "notes": "Progetto CASH: prodotti digitali e servizi operativi per venditori online.",
+  "github": {
+    "mode": "auto",
+    "repository": "MaxCb664/CASH",
+    "visibility": "public",
+    "remote": "origin"
+  }
+}
