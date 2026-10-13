@@ -1,0 +1,132 @@
+# ==========================================
+# CASH - .gitignore
+# ==========================================
+
+# 🔒 Segreti — la riga più importante del file
+.ai/secrets.env
+!.ai/secrets.env.example
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+config/secrets/
+
+# ⚙️ n8n (self-hosted)
+# NOTA: gli export dei workflow in workflows/*.json SONO versionati,
+# ma vanno ripuliti dalle credenziali prima del commit (D-18).
+.n8n/
+*.backup.json
+.n8n_credentials.json
+n8n_data/
+
+# 🗄️ Database & dati locali
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+pgdata/
+data/local/
+temp_data/
+
+# 🎬 Asset multimediali generati (video, render, thumbnail)
+# Gli asset stanno su storage esterno; il repo versiona la pipeline, non gli output.
+assets/
+renders/
+output/
+*.mp4
+*.mov
+*.mp3
+*.wav
+
+# 🐍 Python (script di supporto)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 📦 Virtual environment & package manager
+venv/
+.venv/
+env/
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# 🤖 Cache AI / LLM
+cache/
+.cache/
+.hf/
+
+# 📝 IDE & editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# 💻 File di sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# 📜 Log & temporanei
+logs/
+*.log
+temp/
+tmp/
+
+# 🔐 Chiavi & certificati
+*.cert
+*.crt
+*.pfx
+id_rsa
+id_rsa.pub
+authorized_keys
+known_hosts
+
+# 📄 Snapshot PDF generati dai docs (il markdown è la fonte di verità)
+docs/**/*.pdf
+
+# 📦 Varie
+.history/
+*.zip
+*.tar.gz
+*.rar
+
+# 🧠 Memoria personale Obsidian (non va su GitHub; vive nel vault di Max)
+docs/obsidian/
+
+# 📸 Screenshot di lavoro (possono contenere token: es. BotFather)
+Immagini/
+
+# <!-- UNISTACK:BEGIN -->
+.unistack-install/
+ 
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+ 
+pytest-cache-files-*/
+# <!-- UNISTACK:END -->
