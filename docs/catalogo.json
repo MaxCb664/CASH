@@ -27,9 +27,11 @@
       "channels": {
         "payhip": {
           "role": "primary",
-          "status": "account_created_awaiting_upload",
+          "status": "unlisted_draft_created",
           "saved_price_eur": 2.99,
-          "listing_id": null
+          "listing_id": "EL3qh",
+          "url": "https://payhip.com/b/EL3qh",
+          "last_verified": "2026-10-13"
         },
         "kofi": {
           "role": "alternative",

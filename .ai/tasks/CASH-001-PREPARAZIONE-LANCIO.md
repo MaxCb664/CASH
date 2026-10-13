@@ -9,7 +9,7 @@ Stato: in corso. Account Payhip, Ko-fi e repository GitHub configurati il 13 ott
 - [x] Salvare e verificare il prezzo Gumroad; verificare il pacchetto scaricato dall'editor.
 - [x] Conservare Etsy sospeso senza pubblicazione o costi.
 - [x] Creare account Payhip e Ko-fi e collegare repository GitHub (completato dal titolare).
-- [ ] Caricare bozza su Payhip (e Ko-fi Shop) con file zip, immagini, descrizione e prezzo di lancio 2,99 € (visibilità nascosta/bozza).
+- [x] Caricare bozza su Payhip (prodotto EL3qh creato con visibilità Unlisted a 2,99 €); Ko-fi Shop da completare.
 - [ ] Completare i dati venditore e metodi di accredito a cura del titolare.
 - [ ] Verificare checkout/download cliente, oppure documentare un limite specifico dopo la configurazione.
 - [ ] Eseguire prova Excel desktop, oppure registrare l'indisponibilità alla consegna finale.

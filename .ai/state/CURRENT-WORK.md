@@ -10,7 +10,7 @@ Obiettivo: 500 € mensili dopo costi e commissioni, prima di imposte e contribu
 
 - Repository GitHub: inizializzato e collegato a `https://github.com/MaxCb664/CASH` (branch `main`). File `.ai/unistack.json` creato con configurazione GitHub sincronizzata.
 - Kit CASH-001 conservato in `outputs/01a0fc6b-eba3-7760-b973-8aa04c2c295e`; ZIP acquirente (`Vendite_e_spese_v1.zip`) e 5 file interni intatti.
-- Payhip Free Forever: account creato dal titolare il 13 ottobre 2026. Prezzo base di lancio 2,99 € (testi in `operativo/Payhip_pronto.md`).
+- Payhip Free Forever: prodotto creato dal titolare il 13 ottobre 2026 (listing ID: `EL3qh`, URL: `https://payhip.com/b/EL3qh`) a 2,99 € con visibilità Unlisted.
 - Ko-fi Shop: account creato dal titolare il 13 ottobre 2026. Scheda pronta in `operativo/Kofi_pronto.md` a 2,99 € (accredito diretto, IVA a carico del venditore).
 - Gumroad secondario: bozza `qbcclq` a 9,90 EUR salvata. Prodotto non in vendita per accrediti non configurati (soglia osservata 100 USD).
 - Etsy sospeso: bozza `4587304534` conservata a 29 €, senza modifiche o costi.
