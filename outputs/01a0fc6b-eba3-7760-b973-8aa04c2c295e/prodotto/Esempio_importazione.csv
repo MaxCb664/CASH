@@ -1,0 +1,6 @@
+﻿Data movimento;ID movimento;Canale;Prodotto;Categoria;Lordo EUR;Rimborsi EUR;Commissioni EUR
+2026-10-02;MOV-001;Etsy;Template vendite;Template;29,00;0,00;4,20
+2026-10-05;MOV-002;Gumroad;Template vendite;Template;29,00;0,00;4,80
+2026-10-10;MOV-003;Diretto;Pulizia CSV;Servizio;149,00;0,00;0,00
+2026-10-31;MOV-004;Etsy;Template vendite;Template;29,00;0,00;4,20
+2026-11-02;RET-001;Gumroad;Rimborso MOV-002;Template;0,00;29,00;0,00

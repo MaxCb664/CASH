@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-08",
+  "products": [
+    {
+      "sku": "CASH-001",
+      "slug": "vendite-spese-excel-italiano",
+      "name": "Vendite e spese v1",
+      "audience": "Piccoli venditori online italiani",
+      "problem": "Organizzare vendite spese margine e accrediti",
+      "outcome": "Riepilogo mensile distinto fra margine maturato e liquidità ricevuta",
+      "format": "xlsx",
+      "status": "draft_saved",
+      "version": "1.0",
+      "path": "outputs/01a0fc6b-eba3-7760-b973-8aa04c2c295e",
+      "saved_price_eur": 9.9,
+      "etsy_listing_id": "4587304534",
+      "gumroad_product_id": "qbcclq",
+      "blockers": [
+        "Accesso Payhip del titolare e caricamento da completare",
+        "Excel desktop non verificato",
+        "Verifiche venditore e fiscali",
+        "Metodo accredito Gumroad mancante",
+        "Checkout/download end-to-end non verificato"
+      ],
+      "approved_price_eur": 9.9,
+      "channels": {
+        "payhip": {
+          "role": "primary",
+          "status": "awaiting_owner_login",
+          "saved_price_eur": null,
+          "listing_id": null
+        },
+        "gumroad": {
+          "role": "secondary",
+          "status": "draft_saved_payout_blocked",
+          "saved_price_eur": 9.9,
+          "listing_id": "qbcclq",
+          "last_verified": "2026-10-08",
+          "observed_minimum_payout_usd": 100
+        },
+        "etsy": {
+          "role": "paused",
+          "status": "draft_preserved",
+          "saved_price_eur": 29,
+          "listing_id": "4587304534",
+          "last_verified": "2026-10-02"
+        }
+      }
+    }
+  ]
+}

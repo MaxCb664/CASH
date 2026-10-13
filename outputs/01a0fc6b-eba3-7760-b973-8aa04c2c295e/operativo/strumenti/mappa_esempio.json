@@ -1,0 +1,16 @@
+{
+  "delimitatore": ";",
+  "decimale": ",",
+  "migliaia": "",
+  "formato_data": "%Y-%m-%d",
+  "colonne": {
+    "Data movimento": "Data movimento",
+    "ID movimento": "ID movimento",
+    "Canale": "Canale",
+    "Prodotto": "Prodotto",
+    "Categoria": "Categoria",
+    "Lordo EUR": "Lordo EUR",
+    "Rimborsi EUR": "Rimborsi EUR",
+    "Commissioni EUR": "Commissioni EUR"
+  }
+}

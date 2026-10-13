@@ -1,0 +1,136 @@
+{
+  "data": "2026-10-02",
+  "engine": "Artifact Tool; Excel desktop non verificato",
+  "checks": [
+    {
+      "label": "Registro vuoto",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "Ultima riga e 31 dicembre",
+      "actual": 90,
+      "expected": 90
+    },
+    {
+      "label": "Vendita senza accredito",
+      "actual": 90,
+      "expected": 90
+    },
+    {
+      "label": "Accredito fuori anno",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "Accredito parziale",
+      "actual": 50,
+      "expected": 50
+    },
+    {
+      "label": "Zero esplicito",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "Ripristino registro vuoto",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "Vendite ottobre",
+      "actual": 236,
+      "expected": 236
+    },
+    {
+      "label": "Commissioni ottobre",
+      "actual": 13.2,
+      "expected": 13.2
+    },
+    {
+      "label": "Margine ottobre",
+      "actual": 210.8,
+      "expected": 210.8
+    },
+    {
+      "label": "Accrediti ottobre",
+      "actual": 198,
+      "expected": 198
+    },
+    {
+      "label": "Cassa ottobre",
+      "actual": 196,
+      "expected": 196
+    },
+    {
+      "label": "Saldo ottobre",
+      "actual": 24.80000000000001,
+      "expected": 24.8
+    },
+    {
+      "label": "Rimborso novembre",
+      "actual": -29,
+      "expected": -29
+    },
+    {
+      "label": "Cassa novembre",
+      "actual": -14.2,
+      "expected": -14.2
+    },
+    {
+      "label": "Saldo novembre",
+      "actual": 1.0658141036401503e-14,
+      "expected": 0
+    },
+    {
+      "label": "Registro vuoto",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "Ultima riga e 31 dicembre",
+      "actual": 90,
+      "expected": 90
+    },
+    {
+      "label": "Vendita senza accredito",
+      "actual": 90,
+      "expected": 90
+    },
+    {
+      "label": "Accredito fuori anno",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "Accredito parziale",
+      "actual": 50,
+      "expected": 50
+    },
+    {
+      "label": "Zero esplicito",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "Ripristino registro vuoto",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "Scenario misto",
+      "actual": 546.3,
+      "expected": 546.3
+    },
+    {
+      "label": "Solo template",
+      "actual": 25,
+      "expected": 25
+    },
+    {
+      "label": "Scenario reagisce a input",
+      "actual": 144,
+      "expected": 144
+    }
+  ]
+}

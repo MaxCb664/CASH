@@ -1,0 +1,22 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import {FileBlob, SpreadsheetFile} from '@oai/artifact-tool';
+const root='F:/DEV/CASH/outputs/01a0fc6b-eba3-7760-b973-8aa04c2c295e';
+const source=root+'/operativo/Registro_operativo.xlsx';
+const out='F:/DEV/CASH/docs/verifiche/2026-10-08';
+await fs.mkdir(out,{recursive:true});
+const w=await SpreadsheetFile.importXlsx(await FileBlob.load(source));
+const s=w.worksheets.getItem('Avvio');
+const render=async name=>{const png=await w.render({sheetName:'Avvio',range:'A1:G16',scale:1.4,format:'png'});await fs.writeFile(out+'/'+name,new Uint8Array(await png.arrayBuffer()));};
+await render('scenario-prima.png');
+if(process.argv.includes('--inspect')){console.log(JSON.stringify({values:s.getRange('A8:E13').values,formulas:s.getRange('E8:E13').formulas}));process.exit(0);}
+await fs.copyFile(source,out+'/Registro_operativo-prima.xlsx');
+s.getRange('B9:C9').values=[[9.9,18]];
+w.recalculate();
+console.log(JSON.stringify({inputs:s.getRange('B8:D9').values,outputs:s.getRange('E8:E13').values}));
+assert.ok(Math.abs(Number(s.getRange('E12').values[0][0])-505.95)<1e-6);
+assert.equal(Number(s.getRange('E13').values[0][0]),72);
+await render('scenario-dopo.png');
+await (await SpreadsheetFile.exportXlsx(w)).save(source);
+await fs.writeFile(out+'/scenario.json',JSON.stringify({date:'2026-10-08',price_eur:9.9,services:3,templates:18,margin_eur:505.95,templates_only:72,engine:'Artifact Tool; Excel desktop non verificato'},null,2));
+console.log('Scenario aggiornato: margine505,95 EUR, soglia72 template.');

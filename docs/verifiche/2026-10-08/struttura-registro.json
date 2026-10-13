@@ -1,0 +1,81 @@
+{
+  "before": {
+    "sheets": [
+      "Riepilogo",
+      "Avvio",
+      "Vendite",
+      "Spese",
+      "Accrediti",
+      "Opportunita",
+      "Tempo"
+    ],
+    "tables": 5,
+    "formulas": {
+      "Riepilogo": 142,
+      "Avvio": 6,
+      "Vendite": 2000,
+      "Spese": 0,
+      "Accrediti": 0,
+      "Opportunita": 0,
+      "Tempo": 0
+    },
+    "validations": {
+      "Riepilogo": 1,
+      "Avvio": 1,
+      "Vendite": 2,
+      "Spese": 1,
+      "Accrediti": 0,
+      "Opportunita": 1,
+      "Tempo": 1
+    },
+    "panes": {
+      "Riepilogo": 0,
+      "Avvio": 0,
+      "Vendite": 1,
+      "Spese": 1,
+      "Accrediti": 1,
+      "Opportunita": 1,
+      "Tempo": 1
+    }
+  },
+  "after": {
+    "sheets": [
+      "Riepilogo",
+      "Avvio",
+      "Vendite",
+      "Spese",
+      "Accrediti",
+      "Opportunita",
+      "Tempo"
+    ],
+    "tables": 5,
+    "formulas": {
+      "Riepilogo": 142,
+      "Avvio": 6,
+      "Vendite": 2000,
+      "Spese": 0,
+      "Accrediti": 0,
+      "Opportunita": 0,
+      "Tempo": 0
+    },
+    "validations": {
+      "Riepilogo": 1,
+      "Avvio": 1,
+      "Vendite": 2,
+      "Spese": 1,
+      "Accrediti": 0,
+      "Opportunita": 1,
+      "Tempo": 1
+    },
+    "panes": {
+      "Riepilogo": 0,
+      "Avvio": 0,
+      "Vendite": 1,
+      "Spese": 1,
+      "Accrediti": 1,
+      "Opportunita": 1,
+      "Tempo": 1
+    }
+  },
+  "result": "preserved"
+}
