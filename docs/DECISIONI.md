@@ -21,5 +21,8 @@ Salvati stato comune e task in `.ai/state/CURRENT-WORK.md` e `.ai/tasks/CASH-001
 
 ## 13 ottobre 2026 — Account Payhip, Ko-fi e GitHub collegati
 Il titolare ha creato gli account su Payhip e Ko-fi e ha inizializzato e pushato il repository su GitHub (`https://github.com/MaxCb664/CASH`).
-Payhip è confermato come canale primario (piano Free Forever, 5% fee vendite, gestione IVA UE/UK automatica). Ko-fi Shop viene integrato come canale alternativo a 9,90 € (accredito diretto su Stripe/PayPal, gestione IVA digitale UE a carico del venditore). Predisposte le schede operative pronte per il copia-incolla (`Payhip_pronto.md` e `Kofi_pronto.md`). Aggiornato `.ai/unistack.json` con repository remoto `MaxCb664/CASH`. Prossimo passo: caricamento bozza su Payhip e Ko-fi, prova file su Excel desktop e impostazione metodi di accredito.
+Payhip è confermato come canale primario (piano Free Forever, 5% fee vendite, gestione IVA UE/UK automatica). Ko-fi Shop viene integrato come canale alternativo (accredito diretto su Stripe/PayPal, gestione IVA digitale UE a carico del venditore). Predisposte le schede operative pronte per il copia-incolla (`Payhip_pronto.md` e `Kofi_pronto.md`). Aggiornato `.ai/unistack.json` con repository remoto `MaxCb664/CASH`.
+
+## 13 ottobre 2026 — Prezzo di lancio impostato a 2,99 €
+Il titolare ha deciso di impostare il prezzo base di lancio a 2,99 € (EUR) per il template CASH-001 su Payhip e Ko-fi, per ridurre l'attrito iniziale d'acquisto, facilitare le prime conversioni e raccogliere feedback reali. Lo scenario di pareggio (break-even per 500 € netti/mese ante imposte) a 2,99 € richiede circa 220–237 vendite di soli template, oppure una combinazione di 3 servizi da 149 € e 57 template a 2,99 €. Aggiornati catalogo e schede operative.
 

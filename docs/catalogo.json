@@ -13,7 +13,7 @@
       "status": "draft_saved",
       "version": "1.0",
       "path": "outputs/01a0fc6b-eba3-7760-b973-8aa04c2c295e",
-      "saved_price_eur": 9.9,
+      "saved_price_eur": 2.99,
       "etsy_listing_id": "4587304534",
       "gumroad_product_id": "qbcclq",
       "blockers": [
@@ -23,18 +23,18 @@
         "Metodo accredito Gumroad mancante",
         "Checkout/download end-to-end non verificato"
       ],
-      "approved_price_eur": 9.9,
+      "approved_price_eur": 2.99,
       "channels": {
         "payhip": {
           "role": "primary",
           "status": "account_created_awaiting_upload",
-          "saved_price_eur": 9.9,
+          "saved_price_eur": 2.99,
           "listing_id": null
         },
         "kofi": {
           "role": "alternative",
           "status": "account_created_awaiting_upload",
-          "saved_price_eur": 9.9,
+          "saved_price_eur": 2.99,
           "listing_id": null
         },
         "gumroad": {

@@ -1,6 +1,6 @@
 # Scheda Ko-fi Shop pronta
 
-Canale: Ko-fi Shop (alternativa gratuita diretta). Valuta: EUR. Prezzo base: 9,90 €.
+Canale: Ko-fi Shop (alternativa gratuita diretta). Valuta: EUR. Prezzo base di lancio: 2,99 €.
 Nome prodotto: Vendite e spese — Template Excel in italiano
 
 File da caricare: `Vendite_e_spese_v1.zip`
